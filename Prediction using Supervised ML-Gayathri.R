@@ -8,7 +8,8 @@ summary(data)
 plot(x=data$Hours, y=data$Scores,
      xlab = "Hours", ylab = "Scores",
      main = "Scores V/s Hours")
-
 #Linear Regression passed the formula and it passed 
 data.regression <- lm(Scores ~ Hours, data=data)
 abline(data.regression, col="blue")
+
+#Task Completed
